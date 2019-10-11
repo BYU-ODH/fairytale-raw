@@ -1,0 +1,407 @@
+/* /*
+ Theme Name:   Twenty Nineteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Template:     twentynineteen
+ Version:      1.0.0
+ Text Domain:  twentynineteenchild
+*/
+
+
+/* demo for different font */
+.page-id-19 #menu-fttv-menu-2 li.menu-item a {
+    font-family: bariol_regular-webfont !important;
+}
+.page-id-19 h3 {
+    font-family: Becker;
+}
+/* constant menu */
+.page-id-151 #menu-fttv-menu-2 li.menu-item a {
+    position: fixed;
+    margin-top: 1.5em;
+    margin-left: -1em;
+    z-index: 10;
+}
+
+/* Resizing text */
+
+a{
+	font-family: bariol_regular-webfont;
+	font-weight: 28pt;
+}
+
+h3{
+    font-family: bariol_regular-webfont;
+	font-weight: 28pt;
+}
+
+/*border for menu */
+.main-navigation ul.main-menu > li {
+    border-bottom: black solid .05em;
+}
+/* Make menu in grid */
+#menu-fttv-menu-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto; 
+    height: 2em;
+    margin-top: -2em;
+    width: 100%;
+    white-space: nowrap;
+    margin-right: auto;
+   margin-left: auto;
+   
+}
+@media only screen and (max-width: 600px) {
+
+    ul {
+        position: absolute;
+    }
+    
+  }
+
+@media only screen and (min-width: 1400px) {
+
+    .page-id-151 #menu-fttv-menu-2 {
+        font-size: 2.5em;
+    
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+
+    ul {
+        position: absolute;
+    }
+    
+  }
+ 
+
+.entry .entry-content a {
+    text-decoration: none;
+    color: #4980A8;
+}
+
+/* Search Bar */
+input::placeholder {
+    color: white;
+  }
+input.search-field {
+    width: 125px;
+    height: 35px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+}
+
+.button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #53BEAF !important;
+    border: none;
+    border-radius: 20% / 35% ;
+    box-sizing: content-box;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    outline: none;
+    padding: 5px 15px;
+    vertical-align: middle;
+    margin-left: 10px;
+    
+}
+/*Search Bar */
+
+/*Side Heading */
+.elementor-heading-title{
+    width : 130px;
+}
+.elementor-widget-heading .elementor-heading-title>a {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+h5{
+    display: none !important;
+}
+div.tagcloud a{
+    display: list-item;
+    list-style-type: square;
+    color:black;
+}
+/* Side Heading */
+
+/*People Page */
+.elementor-widget-container li {
+    padding-left: 0px;
+    padding-bottom: -10px;
+    margin-bottom: -5px;
+    list-style: none;
+}
+  
+ .elementor-widget-container ul li::before {
+    content: "\220E";
+    color: #CEA52B; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+}
+/*People Page */
+.bdp_blog_template .bd-blog-header .bd-metadatabox {
+    border-bottom: none;
+    float: none;
+    font-size: 50px !important;
+    font-style: normal; 
+    color: grey;
+    margin: 0px 0 0; 
+    width: 100%;
+    line-height: 3; 
+}
+h1:not(.site-title):before, h2:before {
+    height: 0px;
+     margin: 0 !important; 
+    width: 1em;
+}
+.bd-metadatabox p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.bd-metadatabox {
+    margin-top: 0px;
+}
+.bdp_blog_template.classical {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    /* border-bottom-width: 0px !important; */
+}
+footer {
+    display: none;
+}
+.bd-icon- {
+    display: none;
+}
+.bdp_blog_template.classical .bd-post-image img {
+    width: 100%;
+}
+.bdp_blog_template .bd-blog-header h2, .bdp_blog_template .bd-blog-header h2 a {
+    font-size: 38px;
+	font-style: normal;
+	text-decoration:  none;
+}
+.bdp_blog_template a.bd-more-tag {
+    font-size: 14px;
+    border-radius: 5px;
+     float: left !important; 
+}
+
+/* Border */
+ .InsideBorder {
+    position: fixed;
+    background-color: black; 
+} 
+ .OutsideBorder {
+    position: fixed;
+    background-color: black;
+}
+/* */
+
+.section {
+    z-index:2;
+   /* margin-top:10em; */
+} 
+.bold {
+    font-family: bariol_regular-Webfont;
+    font-weight: 28pt;
+}
+
+/* Menu */
+
+.nothing { 
+    background-color: #BFC5C0;
+    padding:1.5em;
+    padding-bottom: 1.563em;
+    /* padding-left: 2.4em;
+    padding-right: 2.4em; */
+    /*margin-right: -.438em;*/
+}
+.about { 
+    background-color: #CEA52B;
+    padding:1.5em;
+    padding-bottom: 1.563em;
+    /* padding-left: 2em;
+    padding-right: 2em;
+    margin-right: -.438em;
+    margin-left: -.438em; */
+}
+.people { 
+    background-color: #53BEAF;
+    padding: 1.5em;
+    padding-bottom: 1.563em;
+    /* padding-left: 2.1em;
+    padding-right: 2.1em;
+    margin-right: -.438em; */
+}
+.dataTools { 
+    background-color: #80B541;
+    padding: 1.5em;
+    padding-bottom: 1.563em;
+    /* padding-left: 2.75em;
+    padding-right: 2.75em;
+    margin-right: -.438em; */
+}
+.teleography { 
+    background-color: #C072AF;
+    padding: 1.5em;
+    padding-bottom: 1.563em;
+    /* padding-left: 2.2em;
+    padding-right: 2.2em;
+    margin-right: -.438em; */
+}
+.blogcss { 
+    background-color: #CA5828;
+    padding: 1.5em;
+    padding-bottom: 1.563em;
+    /* padding-left: 2.15em;
+    padding-right: 2.15em;
+    margin-right: -.438em; */
+}
+.signIn { 
+    background-color: #4980A8;
+    padding: 1.5em;
+    padding-bottom: 1.563em;
+    /* padding-left: 1.55em;
+    padding-right: 1.55em;
+    margin-right: -.438em; */
+}
+
+/* .page-id-151 #menu-fttv-menu-2 {
+    position: sticky;
+}  */
+/* nothing page */
+
+.page-id-57 #menu-fttv-menu-2 {
+    display: none;
+    }  
+.page-id-57 #mastheader {
+    display: none;
+}
+.page-id-57 .site-header {
+    display: none;
+}
+
+.page-id-151 #menu-fttv-menu-2 {
+    width: 100%;
+    z-index: 1;
+   /* float:left; */
+}
+.main-navigation .main-menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100% ;
+}
+ .page-id-151 .nothing { 
+    background-color: #BFC5C0;
+    padding: 1.5em;
+    padding-bottom: 28em;
+    padding-left: 2.4em;
+    padding-right: 2.4em;
+    /*margin-right: -.438em;*/
+}
+.page-id-151 .about { 
+    background-color: #CEA52B;
+    padding:1.5em;
+    padding-bottom: 28em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-right: -.438em;
+    margin-left: -.438em;
+}
+.page-id-151 .people { 
+    background-color: #53BEAF;
+    padding: 1.5em;
+    padding-bottom: 28em;
+    padding-left: 2.1em;
+    padding-right: 2.1em;
+    margin-right: -.438em;
+}
+.page-id-151 .dataTools { 
+    background-color: #80B541;
+    padding: 1.5em;
+    padding-bottom: 28em;
+    padding-left: 2.75em;
+    padding-right: 2.75em;
+    margin-right: -.438em;
+}
+.page-id-151 .teleography { 
+    background-color: #C072AF;
+    padding: 1.5em;
+    padding-bottom: 28em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
+    margin-right: -.438em;
+}
+.page-id-151 .blogcss { 
+    background-color: #CA5828;
+    padding: 1.5em;
+    padding-bottom: 28em;
+    padding-left: 2.15em;
+    padding-right: 2.15em;
+    margin-right: -.438em;
+}
+.page-id-151 .signIn { 
+    background-color: #4980A8;
+    padding: 1.5em;
+    padding-bottom: 28em;
+    padding-left: 2em;
+    padding-right: 1.55em;
+    margin-right: -.438em;
+}
+
+
+.page-id-20 #menu-fttv-menu-2 {
+    position: fixed;
+}
+
+#menu-fttv-menu-2 {
+    z-index: 3;
+    /*margin-left: 5.8em; */ 
+    /*margin-top: .5em; */
+    width: 100%;
+    
+    /* margin-left: -120px; */
+}
+#menu-fttv-menu-2  li.menu-item a {
+    color: black;
+    font-family: "Becker";
+    font-size: 18pt;
+    } 
+#menu-fttv-menu-2  li.menu-item a:hover {
+    background-color:#fff;
+    color:#666;
+}  
+ /* .current_page_item:not(.about),
+.current-menu-ancestor:not(.about) {
+	padding-bottom: 3.125em;
+}   */
+
+ .site-branding {
+    margin-left: 0em;
+    /*margin-right: 0em;*/
+    width: 100%;
+}
+.entry-title,
+.post-edit-link {
+    display: none;
+}
+.site-header {
+    /*margin-bottom: -2.813em;*/
+    margin-bottom: -2.813em; 
+    margin-left: 0em;
+    /*margin-top: -3.313em; */
+    margin-top: -2em;
+}
+
+.site-info { display: none; }
+.site {
+    width: 100%;
+    } 
